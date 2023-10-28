@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@500&display=swap');
 *{
     padding: 0;
@@ -125,4 +126,42 @@ body{
 
 .footer-text{
     width: 100%;
+}
+
+.main{
+    display: grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+
+    text-align: center;
+
+    gap: 5px;
+    padding: 15px;
+
+    grid-template-areas:
+       "img1 text1 text1"
+       "text2 text2 img2"
+       "img3 text3 text3"
+
+        
+    ;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.mu1{
+    grid-area: img1;
+}
+
+.mu2{
+    grid-area: img2;
+}
+
+.mu3{
+    grid-area: img3;
 }
