@@ -166,7 +166,7 @@ body{
 }
 
 .t1{
-    grid-area: text1;
+    grid-area: text1;    
 }
 
 .t2{
@@ -183,5 +183,4 @@ body{
     flex-direction: column;
     justify-content: center;
    
-
 }
