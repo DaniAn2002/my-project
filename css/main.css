@@ -28,7 +28,7 @@ body{
 
 .header-image{
     align-items: flex-end;
-    height: 6vw;
+    height: 10vw;
     object-fit: contain;
     padding: 0 20px;
 }
