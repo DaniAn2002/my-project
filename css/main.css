@@ -176,3 +176,12 @@ body{
 .t3{
     grid-area: text3;
 }
+
+.text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
