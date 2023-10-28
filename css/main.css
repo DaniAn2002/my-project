@@ -28,7 +28,7 @@ body{
 
 .header-image{
     align-items: flex-end;
-    height: 8vw;
+    height: 10vw;
     object-fit: contain;
     padding: 0 20px;
 }
@@ -63,6 +63,7 @@ body{
 .navbar-list li{
     padding: 0 20px;
     list-style: none;
+    height: 8vw;
 }
 .navbar-list li a{
     text-decoration: none;
