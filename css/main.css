@@ -184,3 +184,14 @@ body{
     justify-content: center;
     font-size: 2vw;
 }
+.header-container{
+    grid-auto-rows: auto;
+    background-image: url(https://res.cloudinary.com/dz14om75h/image/upload/v1696037003/samples/man-on-a-escalator.jpg);
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.row{
+    align-items: center;
+}
