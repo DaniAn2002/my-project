@@ -15,11 +15,11 @@ body{
     display: flex;
     align-items:center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 1.25rem;
     margin: 0;
     background-color: black;
     font-family: 'Fredoka', sans-serif;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0rem .3125rem;
     z-index: 999;
     position: sticky;
     top: 0;
@@ -30,7 +30,7 @@ body{
     align-items: flex-end;
     height: 8vw;
     object-fit: contain;
-    padding: 0 20px;
+    padding: 0 1.25rem;
 }
 
 .title-ecommerce{
@@ -38,8 +38,8 @@ body{
     font-family: 'Fredoka', sans-serif;
     color: #9F4340;
     font-weight: 700;
-    font-size: 36px;
-    text-shadow: rgba(12, 12, 12, 0.8) 3px 2px;
+    font-size: 2.25rem;
+    text-shadow: rgba(12, 12, 12, 0.8) .1875rem .125rem;
     color:white;
 }
 
@@ -61,7 +61,7 @@ body{
     color:white;
 }
 .navbar-list li{
-    padding: 0 20px;
+    padding: 0 1.25rem;
     list-style: none;
 }
 .navbar-list li a{
@@ -71,7 +71,7 @@ body{
 
 .navbar-list li a:hover{
     color: rgba(67, 125, 231, 1);
-    text-shadow: rgba(255, 255, 255, 0.5) 1px 1px;
+    text-shadow: rgba(255, 255, 255, 0.5) .0625rem .0625rem;
 }
 
 .hero-background{
@@ -101,11 +101,11 @@ body{
     display: flex;
     align-items:center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 1.25rem;
     margin: 0;
     background-color: white;
     font-family: 'Fredoka', sans-serif;
-    box-shadow: rgba(0, 0, 0, 0.35) 8px 1px 1px 6px;
+    box-shadow: rgba(0, 0, 0, 0.35) .5rem .0625rem .0625rem .375rem;
     z-index: 998;
     bottom: 0;
     object-fit: cover;
@@ -117,7 +117,7 @@ body{
     align-items: flex-end;
     height: 2vw;
     object-fit: contain;
-    padding: 0 20px;
+    padding: 0 1.25rem;
 }
 
 .social-images a:hover{
@@ -136,8 +136,8 @@ body{
 
     text-align: center;
 
-    gap: 5px;
-    padding: 15px;
+    gap: .3125rem;
+    padding: .9375rem;
 
     grid-template-areas:
        "img1 text1 text1"
