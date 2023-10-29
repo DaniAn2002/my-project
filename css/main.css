@@ -103,7 +103,7 @@ body{
     justify-content: space-between;
     padding: 1.25rem;
     margin: 0;
-    background-color: white;
+    background-color: grey;
     font-family: 'Fredoka', sans-serif;
     box-shadow: rgba(0, 0, 0, 0.35) .5rem .0625rem .0625rem .375rem;
     z-index: 998;
