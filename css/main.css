@@ -103,14 +103,14 @@ body{
     justify-content: space-between;
     padding: 1.25rem;
     margin: 0;
-    background-color: grey;
+    background-color: black;
     font-family: 'Fredoka', sans-serif;
     box-shadow: rgba(0, 0, 0, 0.35) .5rem .0625rem .0625rem .375rem;
     z-index: 998;
     bottom: 0;
     object-fit: cover;
     flex-wrap: wrap;
-    color:black;
+    color:white;
 }
 
 .social-images{
