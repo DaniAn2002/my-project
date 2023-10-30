@@ -107,7 +107,7 @@ body{
     font-family: 'Fredoka', sans-serif;
     box-shadow: rgba(0, 0, 0, 0.35) .5rem .0625rem .0625rem .375rem;
     z-index: 998;
-    bottom: 0;
+    top: 0;
     object-fit: cover;
     flex-wrap: wrap;
     color:white;
@@ -146,6 +146,7 @@ body{
 
     ;
 }
+
 
 .img {
     width: 100%;
@@ -188,7 +189,7 @@ body{
 .header-container{
     grid-auto-rows: auto;
     background-image: url(https://res.cloudinary.com/dz14om75h/image/upload/v1696037003/samples/man-on-a-escalator.jpg);
-    height: auto;
+    height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
