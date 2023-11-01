@@ -94,6 +94,9 @@ body{
     font-family: 'Fredoka', sans-serif;
     flex-direction: column;
     align-items: flex;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .footer{
