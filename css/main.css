@@ -100,8 +100,77 @@ body{
     justify-content: center;
 }
 
+.article-body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+    background-color: #202020;
+    padding: 50px;
+    font-family: 'chivo' sans-serif;
+}
 
+.article-body .container-about{
+    max-width: 1000px;
+}
 
+.article-body .container-about .about{
+    background: url(https://res.cloudinary.com/dz14om75h/image/upload/v1698895540/adsgab0hz7krmlamood8.jpg) center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+    padding: 20px 50px 60px;
+    border-radius: 16px;
+    overflow-x: initial;
+}
+.article-body .container-about .about .category{
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+.article-body .container-about .about .info{
+    text-align: center;
+}
+.article-body .container-about .about .info .tags i{
+    font-size: 18px;
+    margin-right: 4px;
+}
+.article-body .container-about .about .info .tags span{
+    font-size: 0.8rem;
+}
+.article-body .container-about .about .info .title-a{
+    margin: 20px 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.article-body .container-about .about .info .subtitle{
+    min-width: 70%;
+    margin: 0 auto 20px;
+    font-size: 1rem;
+}
+
+.article-body .details{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.14);
+    margin-top: 50px;
+    padding: 20px 50px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.68);
+}
+.article-body .article-a{
+    margin-top: 50px;
+    padding-bottom: 20px;
+    line-height: 1.70;
+}
+.article-body .article-a h4{
+    margin-top: 50px;
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+}
 .hero-background-electronica{
     background-image: url(https://res.cloudinary.com/dgxmqoyv4/image/upload/v1698802883/fondo_electronica-01.-01_ptav2g.png);
 }
