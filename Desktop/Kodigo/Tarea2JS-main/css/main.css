@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Teko', sans-serif;
+  }
+
+  .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font-family: 'Teko', sans-serif;
+  }
+
+  .headerText{
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+  }
+
+  .formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 90%;
+    padding: 20px;
+  }
+
+  .textAlign{
+    text-align: center;
+  }
+
+  .elementoNumero{
+    padding: 10px;
+    margin: 5px;
+    background-color: gainsboro;
+    border: 10px;
+    border-color: black;
+    border-radius: 5px;
+  }
